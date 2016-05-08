@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE099D801CAF3D9A0016E002 /* mainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE099D7F1CAF3D9A0016E002 /* mainMenu.swift */; };
+		FE15414C1CD2ADDF002FFC8E /* meController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE15414B1CD2ADDF002FFC8E /* meController.swift */; };
+		FE1541521CD52D28002FFC8E /* WWDC.m4v in Resources */ = {isa = PBXBuildFile; fileRef = FE1541501CD52D28002FFC8E /* WWDC.m4v */; };
+		FE27DCF81C513196002F82E4 /* video.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27DCF71C513196002F82E4 /* video.swift */; };
+		FE358C9E1CB956D8006056AD /* noisehub.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE358C9D1CB956D8006056AD /* noisehub.swift */; };
+		FE742F3E1B6FB05500DBB740 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE742F3D1B6FB05500DBB740 /* AppDelegate.swift */; };
+		FE742F401B6FB05500DBB740 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE742F3F1B6FB05500DBB740 /* ViewController.swift */; };
+		FE742F431B6FB05500DBB740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE742F411B6FB05500DBB740 /* Main.storyboard */; };
+		FE742F451B6FB05500DBB740 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE742F441B6FB05500DBB740 /* Images.xcassets */; };
+		FE742F481B6FB05500DBB740 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE742F461B6FB05500DBB740 /* LaunchScreen.xib */; };
+		FE742F541B6FB05500DBB740 /* Alyssa_McDevittTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE742F531B6FB05500DBB740 /* Alyssa_McDevittTests.swift */; };
+		FE884F891C7297DF0076D718 /* mapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE884F881C7297DF0076D718 /* mapController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE742F4E1B6FB05500DBB740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE742F301B6FB05400DBB740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE742F371B6FB05400DBB740;
+			remoteInfo = "Alyssa McDevitt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE099D7F1CAF3D9A0016E002 /* mainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainMenu.swift; sourceTree = "<group>"; };
+		FE15414B1CD2ADDF002FFC8E /* meController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = meController.swift; sourceTree = "<group>"; };
+		FE1541501CD52D28002FFC8E /* WWDC.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = WWDC.m4v; path = video/WWDC.m4v; sourceTree = "<group>"; };
+		FE27DCF71C513196002F82E4 /* video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = video.swift; sourceTree = "<group>"; };
+		FE358C9D1CB956D8006056AD /* noisehub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = noisehub.swift; sourceTree = "<group>"; };
+		FE742F381B6FB05500DBB740 /* Alyssa McDevitt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alyssa McDevitt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE742F3C1B6FB05500DBB740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE742F3D1B6FB05500DBB740 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE742F3F1B6FB05500DBB740 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE742F421B6FB05500DBB740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE742F441B6FB05500DBB740 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FE742F471B6FB05500DBB740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FE742F4D1B6FB05500DBB740 /* Alyssa McDevittTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alyssa McDevittTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE742F521B6FB05500DBB740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE742F531B6FB05500DBB740 /* Alyssa_McDevittTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alyssa_McDevittTests.swift; sourceTree = "<group>"; };
+		FE884F881C7297DF0076D718 /* mapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE742F351B6FB05400DBB740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE742F4A1B6FB05500DBB740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE742F2F1B6FB05400DBB740 = {
+			isa = PBXGroup;
+			children = (
+				FE1541501CD52D28002FFC8E /* WWDC.m4v */,
+				FE742F3A1B6FB05500DBB740 /* Alyssa McDevitt */,
+				FE742F501B6FB05500DBB740 /* Alyssa McDevittTests */,
+				FE742F391B6FB05500DBB740 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE742F391B6FB05500DBB740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE742F381B6FB05500DBB740 /* Alyssa McDevitt.app */,
+				FE742F4D1B6FB05500DBB740 /* Alyssa McDevittTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE742F3A1B6FB05500DBB740 /* Alyssa McDevitt */ = {
+			isa = PBXGroup;
+			children = (
+				FE742F3D1B6FB05500DBB740 /* AppDelegate.swift */,
+				FE742F3F1B6FB05500DBB740 /* ViewController.swift */,
+				FE15414B1CD2ADDF002FFC8E /* meController.swift */,
+				FE099D7F1CAF3D9A0016E002 /* mainMenu.swift */,
+				FE27DCF71C513196002F82E4 /* video.swift */,
+				FE884F881C7297DF0076D718 /* mapController.swift */,
+				FE358C9D1CB956D8006056AD /* noisehub.swift */,
+				FE742F411B6FB05500DBB740 /* Main.storyboard */,
+				FE742F441B6FB05500DBB740 /* Images.xcassets */,
+				FE742F461B6FB05500DBB740 /* LaunchScreen.xib */,
+				FE742F3B1B6FB05500DBB740 /* Supporting Files */,
+			);
+			path = "Alyssa McDevitt";
+			sourceTree = "<group>";
+		};
+		FE742F3B1B6FB05500DBB740 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE742F3C1B6FB05500DBB740 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE742F501B6FB05500DBB740 /* Alyssa McDevittTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE742F531B6FB05500DBB740 /* Alyssa_McDevittTests.swift */,
+				FE742F511B6FB05500DBB740 /* Supporting Files */,
+			);
+			path = "Alyssa McDevittTests";
+			sourceTree = "<group>";
+		};
+		FE742F511B6FB05500DBB740 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE742F521B6FB05500DBB740 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE742F371B6FB05400DBB740 /* Alyssa McDevitt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE742F571B6FB05500DBB740 /* Build configuration list for PBXNativeTarget "Alyssa McDevitt" */;
+			buildPhases = (
+				FE742F341B6FB05400DBB740 /* Sources */,
+				FE742F351B6FB05400DBB740 /* Frameworks */,
+				FE742F361B6FB05400DBB740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alyssa McDevitt";
+			productName = "Alyssa McDevitt";
+			productReference = FE742F381B6FB05500DBB740 /* Alyssa McDevitt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE742F4C1B6FB05500DBB740 /* Alyssa McDevittTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE742F5A1B6FB05500DBB740 /* Build configuration list for PBXNativeTarget "Alyssa McDevittTests" */;
+			buildPhases = (
+				FE742F491B6FB05500DBB740 /* Sources */,
+				FE742F4A1B6FB05500DBB740 /* Frameworks */,
+				FE742F4B1B6FB05500DBB740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE742F4F1B6FB05500DBB740 /* PBXTargetDependency */,
+			);
+			name = "Alyssa McDevittTests";
+			productName = "Alyssa McDevittTests";
+			productReference = FE742F4D1B6FB05500DBB740 /* Alyssa McDevittTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE742F301B6FB05400DBB740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alyssa McDevitt";
+				TargetAttributes = {
+					FE742F371B6FB05400DBB740 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 8ES66X8FF8;
+					};
+					FE742F4C1B6FB05500DBB740 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FE742F371B6FB05400DBB740;
+					};
+				};
+			};
+			buildConfigurationList = FE742F331B6FB05400DBB740 /* Build configuration list for PBXProject "Alyssa McDevitt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE742F2F1B6FB05400DBB740;
+			productRefGroup = FE742F391B6FB05500DBB740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE742F371B6FB05400DBB740 /* Alyssa McDevitt */,
+				FE742F4C1B6FB05500DBB740 /* Alyssa McDevittTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE742F361B6FB05400DBB740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1541521CD52D28002FFC8E /* WWDC.m4v in Resources */,
+				FE742F431B6FB05500DBB740 /* Main.storyboard in Resources */,
+				FE742F481B6FB05500DBB740 /* LaunchScreen.xib in Resources */,
+				FE742F451B6FB05500DBB740 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE742F4B1B6FB05500DBB740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE742F341B6FB05400DBB740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE27DCF81C513196002F82E4 /* video.swift in Sources */,
+				FE15414C1CD2ADDF002FFC8E /* meController.swift in Sources */,
+				FE358C9E1CB956D8006056AD /* noisehub.swift in Sources */,
+				FE742F401B6FB05500DBB740 /* ViewController.swift in Sources */,
+				FE099D801CAF3D9A0016E002 /* mainMenu.swift in Sources */,
+				FE884F891C7297DF0076D718 /* mapController.swift in Sources */,
+				FE742F3E1B6FB05500DBB740 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE742F491B6FB05500DBB740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE742F541B6FB05500DBB740 /* Alyssa_McDevittTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE742F4F1B6FB05500DBB740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE742F371B6FB05400DBB740 /* Alyssa McDevitt */;
+			targetProxy = FE742F4E1B6FB05500DBB740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE742F411B6FB05500DBB740 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE742F421B6FB05500DBB740 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE742F461B6FB05500DBB740 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE742F471B6FB05500DBB740 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE742F551B6FB05500DBB740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE742F561B6FB05500DBB740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE742F581B6FB05500DBB740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Alyssa McDevitt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlyssaMcDevitt.post.Alyssa-McDevitt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE742F591B6FB05500DBB740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Alyssa McDevitt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlyssaMcDevitt.post.Alyssa-McDevitt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE742F5B1B6FB05500DBB740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Alyssa McDevittTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlyssaMcDevitt.post.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alyssa McDevitt.app/Alyssa McDevitt";
+			};
+			name = Debug;
+		};
+		FE742F5C1B6FB05500DBB740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Alyssa McDevittTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlyssaMcDevitt.post.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alyssa McDevitt.app/Alyssa McDevitt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE742F331B6FB05400DBB740 /* Build configuration list for PBXProject "Alyssa McDevitt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE742F551B6FB05500DBB740 /* Debug */,
+				FE742F561B6FB05500DBB740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE742F571B6FB05500DBB740 /* Build configuration list for PBXNativeTarget "Alyssa McDevitt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE742F581B6FB05500DBB740 /* Debug */,
+				FE742F591B6FB05500DBB740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE742F5A1B6FB05500DBB740 /* Build configuration list for PBXNativeTarget "Alyssa McDevittTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE742F5B1B6FB05500DBB740 /* Debug */,
+				FE742F5C1B6FB05500DBB740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE742F301B6FB05400DBB740 /* Project object */;
+}
